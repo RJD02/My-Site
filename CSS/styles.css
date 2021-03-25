@@ -1,0 +1,106 @@
+body {
+    text-align: center;
+    margin: 0;
+    font-family: 'Merriweather', serif;;
+}
+
+h1 {
+    font-family: 'Sacramento', cursive;
+    margin: 3.125rem auto 0 auto;
+    /* font-size: 562.5% */
+    font-size: 5.625rem; /* 1em = 100% */
+    color: #66BFBF;
+}
+
+h2 {
+    font-family: sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+}
+
+h3 {
+    font-size: 2.8125rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+a {
+    color: #11999E;
+}
+
+p {
+    /* * font-family: 'Source Sans Pro', sans-serif; *
+    * font-family: 'Noto Sans JP', sans-serif; * */
+    font-family: sans-serif;
+}
+
+.pic {
+    height: 150px;
+    width: 140px;
+    border-radius: 100%;
+}
+
+.container {
+    /* background-color: #7eca9c; */
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+}
+
+.top-container {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+}
+
+.mid-container {
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+}
+
+.bottom-container {
+    background-color: green;
+    height: 200px;
+    width: 200px;
+    position: relative;
+}
+
+.und {
+    text-decoration: underline;
+    font-style: oblique;
+}
+
+.top-cld {
+    position: absolute;
+    right: 400px;
+    top: 50px;
+}
+
+.bot-cld {
+    position: absolute;
+    left: 500px;
+    bottom: 300px;
+}
+
+.dots {
+    border-style: dotted none none;
+    border-color: gray;
+    border-width: 15px;
+    width: 5%;
+    height: 0;
+    position: relative;
+    top: 20px;
+}
+
+.me {
+
+}
+
+/* .text {} */
+
+#pro {
+    font-style: oblique;
+    text-decoration: underline;
+}
