@@ -94,13 +94,14 @@ p {
     top: 20px;
 }
 
-.me {
-
+.cp {
+    height: 300px;
 }
 
-/* .text {} */
-
-#pro {
-    font-style: oblique;
-    text-decoration: underline;
+.skill-row {
+    width: 50%;
+    margin: 6.25rem auto 6.25rem auto;
+    /* padding: 100px; */
+    text-align: left;
+    line-height: 2;
 }
