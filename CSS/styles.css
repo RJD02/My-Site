@@ -17,12 +17,15 @@ h2 {
     font-size: 2.5rem;
     color: #66BFBF;
     font-weight: normal;
+    /* margin: auto; */
+    text-align: center;
 }
 
 h3 {
-    font-size: 2.8125rem;
+    font-size: 2.3125rem;
     font-family: 'Montserrat', sans-serif;
     color: #11999E;
+    margin: 0;
 }
 
 a {
@@ -91,16 +94,19 @@ p {
     width: 5%;
     height: 0;
     position: relative;
-    top: 20px;
+    top: 30px;
 }
 
 .cp {
-    height: 15rem;    
+    width: 45%;
+    float: right;
+    height: 15rem;
+    margin-left: 30px;
 }
 
 .skill-row {
-    width: 50%;
-    margin: 6.25rem auto 6.25rem auto;
+    width: 70%;
+    margin: 7.75rem auto 7.75rem auto;
     /* padding: 100px; */
     text-align: left;
     line-height: 2;
@@ -108,9 +114,7 @@ p {
 
 .comp {
     height: 15rem;
-}
-
-.skill {
+    margin-right: 30px;
     float: left;
     width: 35%;
 }
