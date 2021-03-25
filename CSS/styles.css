@@ -95,7 +95,7 @@ p {
 }
 
 .cp {
-    height: 300px;
+    height: 15rem;    
 }
 
 .skill-row {
@@ -104,4 +104,13 @@ p {
     /* padding: 100px; */
     text-align: left;
     line-height: 2;
+}
+
+.comp {
+    height: 15rem;
+}
+
+.skill {
+    float: left;
+    width: 35%;
 }
