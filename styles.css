@@ -54,6 +54,7 @@ p {
 .container {
     /* background-color: #7eca9c; */
     /* background-color: #E4F9F5; */
+    
     position: relative;
     padding-top: 100px;
 }
@@ -87,7 +88,7 @@ p {
 .cp {
     width: 45%;
     float: right;
-    height: 15.2rem;
+    height: 243.2%;
     margin-left: 30px;
     position: relative;
     top: 5px;
@@ -110,4 +111,8 @@ p {
     position: relative;
     bottom: 4.2rem;
     border-radius: 8px;
+}
+
+.row1 {
+    margin-bottom: 6.25rem;
 }
