@@ -3,6 +3,7 @@ body {
     margin: 0;
     font-family: 'Merriweather', serif;
     background-color: #151515;
+    /* background-color: #d3e0ea; */
 }
 
 h1 {
@@ -26,7 +27,9 @@ h2 {
 h3 {
     font-size: 2.3125rem;
     font-family: 'Montserrat', sans-serif;
-    color: #11999E;
+    /* color: #11999E; */
+    /* color: #a7c5eb; */
+    color: #d3e0ea;
     margin: 0;
 }
 
@@ -38,7 +41,8 @@ p {
     /* * font-family: 'Source Sans Pro', sans-serif; *
     * font-family: 'Noto Sans JP', sans-serif; * */
     font-family: sans-serif;
-    color: #b4a5a5;
+    /* color: #b4a5a5; */
+    color: #276678;
 }
 
 .pic {
@@ -87,6 +91,7 @@ p {
     margin-left: 30px;
     position: relative;
     top: 5px;
+    border-radius: 8px;
 }
 
 .skill-row {
@@ -104,4 +109,5 @@ p {
     width: 35%;
     position: relative;
     bottom: 4.2rem;
+    border-radius: 8px;
 }
