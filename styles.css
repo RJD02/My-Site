@@ -1,11 +1,13 @@
 body {
     text-align: center;
     margin: 0;
-    font-family: 'Merriweather', serif;;
+    font-family: 'Merriweather', serif;
+    background-color: #151515;
 }
 
 h1 {
-    font-family: 'Sacramento', cursive;
+    /* font-family: 'Sacramento', cursive; */
+    font-family: 'Dancing Script', cursive;
     margin: 3.125rem auto 0 auto;
     /* font-size: 562.5% */
     font-size: 5.625rem; /* 1em = 100% */
@@ -36,6 +38,7 @@ p {
     /* * font-family: 'Source Sans Pro', sans-serif; *
     * font-family: 'Noto Sans JP', sans-serif; * */
     font-family: sans-serif;
+    color: #b4a5a5;
 }
 
 .pic {
@@ -46,28 +49,9 @@ p {
 
 .container {
     /* background-color: #7eca9c; */
-    background-color: #E4F9F5;
+    /* background-color: #E4F9F5; */
     position: relative;
     padding-top: 100px;
-}
-
-.top-container {
-    background-color: red;
-    height: 200px;
-    width: 200px;
-}
-
-.mid-container {
-    background-color: blue;
-    height: 200px;
-    width: 200px;
-}
-
-.bottom-container {
-    background-color: green;
-    height: 200px;
-    width: 200px;
-    position: relative;
 }
 
 .und {
@@ -99,8 +83,10 @@ p {
 .cp {
     width: 45%;
     float: right;
-    height: 15rem;
+    height: 15.2rem;
     margin-left: 30px;
+    position: relative;
+    top: 5px;
 }
 
 .skill-row {
@@ -112,8 +98,10 @@ p {
 }
 
 .comp {
-    height: 15rem;
+    height: 16rem;
     margin-right: 30px;
     float: left;
     width: 35%;
+    position: relative;
+    bottom: 4.2rem;
 }
