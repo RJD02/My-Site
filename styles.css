@@ -1,8 +1,7 @@
 body {
   margin: 0;
   text-align: center;
-  background-color: #edffec;
-  font-family: "Merriweather", serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 h1 {
@@ -10,22 +9,53 @@ h1 {
   padding-top: 6.25rem;
   font-size: 5rem;
   font-family: "Sacramento", cursive;
+  color: #66bfbf;
 }
 
 h2,
 h3 {
-  font-weight: lighter;
+  font-weight: bold;
   line-height: 2;
+  color: #66bfbf;
+  font-size: 2rem;
+  /* font-family: "Merriweather", serif; */
 }
 
 p {
   line-height: 2;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Merriweather", serif;
+  /* margin: auto; */
+  /* color: #1b2021; */
+}
+
+hr {
+  border-style: dotted none none;
+  border-width: 0.5rem;
+  margin: 5rem auto;
+  color: #bccddf;
+  width: 5%;
+}
+
+.bio {
+  width: 30%;
+  margin: auto;
+}
+
+.middle-container p {
+  color: #1b2021;
+  font-weight: bold;
+  /* width: 30%; */
+  /* margin: 0 auto; */
+}
+/* BUG: Font thickness of H2 is not changing.. */
+.middle-container h2 {
+  font-weight: 900;
+  font-size: 3rem;
+  margin: 1rem auto;
 }
 
 .top-container {
-  /* position: absolute; */
-  background-color: #caf7e3;
+  background-color: #edffec;
   margin-top: 0;
   position: relative;
 }
